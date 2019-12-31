@@ -1,26 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {Compone} from './compone';
+import {Comptwo} from './comptwo';
+import {Compthree} from './compthree';
+import {Compfour} from './compfour';
 
-function App() {
+
+
+
+export function App(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <div> <Compone/> </div>
+    <div> <Comptwo/> </div>
+    <div>
+    <div> <Compthree/> </div>
+    <div> <Compfour/> </div>
+    <div> <Compthree/> </div>
     </div>
-  );
+    </div>
+  )
 }
 
 export default App;
